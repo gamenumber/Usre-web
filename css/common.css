@@ -1,0 +1,31 @@
+/* common.css */
+body {
+  font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.inner {
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center; /* 글씨 가운데 정렬 */
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.btn, .btn-book, .btn-main {
+  display: inline-block;
+  padding: 0.7em 1.2em;
+  border-radius: 8px;
+  background: #6c63ff; /* 포인트 컬러 */
+  color: #fff;
+  transition: background 0.3s ease;
+}
+.btn:hover, .btn-book:hover, .btn-main:hover {
+  background: #4e47d6;
+}
