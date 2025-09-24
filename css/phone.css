@@ -59,23 +59,18 @@
     font-size: 0.9rem;
   }
 
-  .location { 
-    margin: 0 auto;
-    width: 100%;
-    padding-top: 2rem;
-}
-
-.location.h2 {
-    text-align: center;
-}
-
+/* phone.css */
 .map-container {
-        width: 100%;
-        margin: 0 auto;
-        border: 2px solid #ddd;
-        border-radius: 10px;
-        overflow: hidden;
-        padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.map-container iframe {
+  width: 100%;
+  max-width: 400px; /* 모바일에서 iframe 최대 너비 */
+  height: 300px;
 }
 
   footer {
