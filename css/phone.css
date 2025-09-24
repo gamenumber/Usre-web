@@ -59,6 +59,25 @@
     font-size: 0.9rem;
   }
 
+  .location { 
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.location.h2 {
+    text-align: center;
+}
+
+.map-container {
+        width: 100%;
+        margin: 0 auto;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 2rem;
+}
+
   footer {
     margin-top: 4rem;
     font-size: 0.85rem;
